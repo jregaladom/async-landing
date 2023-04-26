@@ -1,4 +1,8 @@
-const url = 'https://pokeapi.co/api/v2/pokemon?limit=10&offset=100';
+function getRandomNumber() {
+    return Math.floor(Math.random() * 100);
+}
+
+const url = `https://pokeapi.co/api/v2/pokemon?limit=10&offset=${getRandomNumber()}}`;
 const options = {
     method: 'GET'
 };
